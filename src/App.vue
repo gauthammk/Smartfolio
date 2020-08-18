@@ -5,61 +5,19 @@
         <Navbar />
       </v-container>
       <v-divider></v-divider>
-      <v-container fluid>
-        <v-row>
-          <v-col>
-            <Title />
-          </v-col>
-        </v-row>
-      </v-container>
+      <Title />
       <v-divider></v-divider>
-      <v-container fluid>
-        <v-row>
-          <v-col>
-            <About />
-          </v-col>
-        </v-row>
-      </v-container>
+      <About />
       <v-divider></v-divider>
-      <v-container fluid>
-        <v-row>
-          <v-col>
-            <Education />
-          </v-col>
-        </v-row>
-      </v-container>
+      <Education />
       <v-divider></v-divider>
-      <v-container fluid>
-        <v-row>
-          <v-col>
-            <Experience />
-          </v-col>
-        </v-row>
-      </v-container>
+      <Experience />
       <v-divider></v-divider>
-      <v-container fluid>
-        <v-row>
-          <v-col>
-            <Skills />
-          </v-col>
-        </v-row>
-      </v-container>
+      <Skills />
       <v-divider></v-divider>
-      <v-container fluid>
-        <v-row>
-          <v-col>
-            <Projects />
-          </v-col>
-        </v-row>
-      </v-container>
+      <Projects />
       <v-divider></v-divider>
-      <v-container fluid>
-        <v-row>
-          <v-col>
-            <Hobbies />
-          </v-col>
-        </v-row>
-      </v-container>
+      <Hobbies />
       <v-divider></v-divider>
     </v-main>
   </v-app>
@@ -95,8 +53,4 @@ export default {
 };
 </script>
 <style scoped>
-.container {
-  background-color: rgb(34, 34, 34);
-  color: white;
-}
 </style>
