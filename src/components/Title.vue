@@ -1,9 +1,11 @@
 <template>
-  <h1>Hello World!</h1>
+  <h1>Title</h1>
 </template>
 
 <script>
-export default {};
+export default {
+  name: "Title",
+};
 </script>
 
 <style>
