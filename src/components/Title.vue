@@ -27,6 +27,7 @@ export default {
 .main-heading {
   font-size: 7rem;
   font-family: "Russo One";
+  color: white;
 }
 .main-title {
   background-color: rgb(34, 34, 34);

@@ -1,13 +1,11 @@
 <template>
   <v-app>
     <v-main>
-      <v-container fluid>
-        <Navbar />
-      </v-container>
+      <Navbar />
       <v-divider class="divider"></v-divider>
       <Title />
       <v-divider class="divider"></v-divider>
-      <About />
+      <About id="about" />
       <v-divider class="divider"></v-divider>
       <Education />
       <v-divider class="divider"></v-divider>
