@@ -4,21 +4,21 @@
       <v-container fluid>
         <Navbar />
       </v-container>
-      <v-divider></v-divider>
+      <v-divider class="divider"></v-divider>
       <Title />
-      <v-divider></v-divider>
+      <v-divider class="divider"></v-divider>
       <About />
-      <v-divider></v-divider>
+      <v-divider class="divider"></v-divider>
       <Education />
-      <v-divider></v-divider>
+      <v-divider class="divider"></v-divider>
       <Experience />
-      <v-divider></v-divider>
+      <v-divider class="divider"></v-divider>
       <Skills />
-      <v-divider></v-divider>
+      <v-divider class="divider"></v-divider>
       <Projects />
-      <v-divider></v-divider>
+      <v-divider class="divider"></v-divider>
       <Hobbies />
-      <v-divider></v-divider>
+      <v-divider class="divider"></v-divider>
     </v-main>
   </v-app>
 </template>
@@ -52,5 +52,8 @@ export default {
   }),
 };
 </script>
-<style scoped>
+<style>
+.divider {
+  background-color: #2ecc71;
+}
 </style>

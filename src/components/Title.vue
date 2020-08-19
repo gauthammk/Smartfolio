@@ -1,6 +1,6 @@
 <template>
   <v-container fluid class="main-container">
-    <v-row class="main-title" align="center" justify="center">
+    <v-row class="main-title" align="center">
       <v-container>
         <v-row align="center" justify="center">
           <h1 class="main-heading">
@@ -8,7 +8,7 @@
             <span class="highlight">MK</span>
           </h1>
         </v-row>
-        <v-row align="center" justify="center">Subtitle</v-row>
+        <v-row align="center" class="content" justify="center">Forever Curious.</v-row>
       </v-container>
     </v-row>
   </v-container>
@@ -22,7 +22,7 @@ export default {
 
 <style>
 .highlight {
-  color: rgb(197, 0, 0);
+  color: #2ecc71;
 }
 .main-heading {
   font-size: 7rem;
@@ -34,8 +34,8 @@ export default {
   height: 100vh;
 }
 .subtitle {
-  margin-top: 2rem;
   font-family: "Russo One";
+  color: #2ecc71;
 }
 .main-container {
   padding: 0 !important;
