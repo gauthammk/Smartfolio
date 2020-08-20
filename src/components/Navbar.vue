@@ -8,9 +8,9 @@
           </v-btn>
         </v-col>
         <v-col md="auto">
-          <v-toolbar-title class="main-heading">
-            <span>&lt; G</span>
-            <span class="highlight">MK</span>
+          <v-toolbar-title class="main-title">
+            <span>&lt; {{firstName.substring(0,1)}}</span>
+            <span class="highlight">{{lastName.substring(0,2)}}</span>
             <span>/ &gt;</span>
           </v-toolbar-title>
         </v-col>
@@ -63,10 +63,14 @@
 </template>
 
 <script>
+import { first, last } from "../content/name.json";
+
 export default {
   name: "Navbar",
   data: () => ({
     overlay: false,
+    firstName: first,
+    lastName: last,
   }),
   methods: {
     triggerMenu: function () {

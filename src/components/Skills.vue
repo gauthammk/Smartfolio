@@ -1,6 +1,6 @@
 <template>
   <v-container fluid class="main-container">
-    <v-row class="main-title" align="center">
+    <v-row class="page" align="center">
       <v-container>
         <v-row align="center" justify="start">
           <h1 class="subtitle">Skills</h1>

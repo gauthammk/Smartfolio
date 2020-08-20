@@ -1,24 +1,16 @@
-# vue-portfolio
+# Smartfolio
+
+_Quickly transforms JSON data to create a simple, elegant and light weight online portfolio. Built with Vue.js and Vuetify._
 
 ## Project setup
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Usage
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Edit the JSON files in `src/content`
+- Edit colors and fonts
+- Serve with `npm run serve`
+- Deploy!
