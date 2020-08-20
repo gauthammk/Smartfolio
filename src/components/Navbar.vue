@@ -47,6 +47,12 @@
               <a class="navigation-link" @click="scrollToId('#projects')">Projects</a>
             </v-row>
             <v-row class="content">
+              <a class="navigation-link" @click="scrollToId('#achievements')">Achivements</a>
+            </v-row>
+            <v-row class="content">
+              <a class="navigation-link" @click="scrollToId('#certifications')">Certifications</a>
+            </v-row>
+            <v-row class="content">
               <a class="navigation-link" @click="scrollToId('#hobbies')">Hobbies</a>
             </v-row>
           </v-container>
@@ -57,13 +63,8 @@
 </template>
 
 <script>
-// import Menu from "./Menu";
-
 export default {
   name: "Navbar",
-  components: {
-    // Menu,
-  },
   data: () => ({
     overlay: false,
   }),

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Network Pentesting With RaspberryPi4",
+    "description": "Targeted packet sniffing, Wifi cracking, MITM attacks, Server side attacks using Metasploit and client side attacks using BeEf.",
+    "demo": null,
+    "repo": null
+  },
+  {
+    "id": 2,
+    "title": "Ideate",
+    "description": "A simple web app where users can look for inspirational ideas among different categories and also put forth their unique content. Built with Python + Django and PostgreSQL. Deployed with Heroku.",
+    "demo": "http://ideateapp.herokuapp.com/",
+    "repo": "https://github.com/gauthammk/Ideate"
+  },
+  {
+    "id": 3,
+    "title": "Pathfinder",
+    "description": "Interactive visualisations of popular pathfinding algorithms like Dijkstra's algorithm, DFS and BFS in the browser. Built with Vue.js and Vuetify. Deployed with Netlify.",
+    "demo": "http://gauthammk-pathfinder.netlify.app/",
+    "repo": "https://github.com/gauthammk/Pathfinder"
+  },
+  {
+    "id": 4,
+    "title": "PyQuiz",
+    "description": "A minimal yet robust API for quiz applications built with Django and the Django REST Framework.",
+    "demo": null,
+    "repo": "https://github.com/gauthammk/PyQuiz"
+  },
+  {
+    "id": 5,
+    "title": "The Lazy Chef",
+    "description": "A web app to find interesting recipes based on the items in your kitchen. Built with Vue.js and Vuetify.",
+    "demo": "https://gauthammk.github.io/the-lazy-chef/",
+    "repo": "https://github.com/gauthammk/the-lazy-chef"
+  },
+  {
+    "id": 6,
+    "title": "Restaurant Recommendation Engine",
+    "description": "A content based recommendation engine that uses cosine correlation and sources data using the Zomato API.",
+    "demo": null,
+    "repo": "https://github.com/gauthammk/restaurant-recommendation-engine"
+  }
+]

@@ -32,7 +32,7 @@ export default {
 .main-title {
   background-color: rgb(34, 34, 34);
   color: white;
-  height: 100vh;
+  min-height: 100vh;
 }
 .subtitle {
   font-family: "Russo One";

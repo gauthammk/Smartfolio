@@ -23,32 +23,12 @@
 </template>
 
 <script>
+import educationJson from "../content/education.json";
+
 export default {
   name: "Education",
   data: () => ({
-    education: [
-      {
-        id: 1,
-        degree: "B.E in Information Science and Engineering",
-        institute: "B.M.S College Of Engineering",
-        graduationDate: "2021",
-        marks: "9.12 CGPA",
-      },
-      {
-        id: 2,
-        degree: "Class 12",
-        institute: "DPS Bangalore South(CBSE)",
-        graduationDate: "2017",
-        marks: "94.6%",
-      },
-      {
-        id: 3,
-        degree: "Class 10",
-        institute: "DPS Bangalore South(CBSE)",
-        graduationDate: "2015",
-        marks: "10 CGPA",
-      },
-    ],
+    education: educationJson,
   }),
 };
 </script>

@@ -15,6 +15,10 @@
       <v-divider class="divider"></v-divider>
       <Projects id="projects" />
       <v-divider class="divider"></v-divider>
+      <Achievements id="achievements" />
+      <v-divider class="divider"></v-divider>
+      <Certifications id="certifications" />
+      <v-divider class="divider"></v-divider>
       <Hobbies id="hobbies" />
       <v-divider class="divider"></v-divider>
     </v-main>
@@ -29,6 +33,8 @@ import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Achievements from "./components/Achievements";
+import Certifications from "./components/Certifications";
 import Hobbies from "./components/Hobbies";
 
 export default {
@@ -42,6 +48,8 @@ export default {
     Experience,
     Skills,
     Projects,
+    Achievements,
+    Certifications,
     Hobbies,
   },
 

@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Address",
+    "data": "Bangalore, India."
+  },
+  {
+    "id": 2,
+    "title": "E-mail",
+    "data": "gauthammk.307@gmail.com"
+  },
+  {
+    "id": 3,
+    "title": "Phone Number",
+    "data": "911-308-1397"
+  }
+]

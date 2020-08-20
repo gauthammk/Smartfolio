@@ -25,51 +25,11 @@
 </template>
 
 <script>
+import skillsJson from "../content/skills.json";
 export default {
   name: "Skills",
   data: () => ({
-    skills: [
-      {
-        id: 1,
-        title: "Information Security and Ethical Hacking",
-        score: 75,
-      },
-      {
-        id: 2,
-        title: "Linux and Git",
-        score: 75,
-      },
-      {
-        id: 3,
-        title: "Python and Django",
-        score: 75,
-      },
-      {
-        id: 4,
-        title: "Node.js, Express.js & Vue.js",
-        score: 60,
-      },
-      {
-        id: 5,
-        title: "HTML5, CSS3 & Bootstrap",
-        score: 75,
-      },
-      {
-        id: 6,
-        title: "MySQL & Django ORM",
-        score: 60,
-      },
-      {
-        id: 7,
-        title: "Java and OOP",
-        score: 60,
-      },
-      {
-        id: 8,
-        title: "Android app development",
-        score: 35,
-      },
-    ],
+    skills: skillsJson,
   }),
 };
 </script>
