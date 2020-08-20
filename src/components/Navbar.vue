@@ -12,7 +12,7 @@
             <v-icon>mdi-menu</v-icon>
           </v-btn>
         </v-col>
-        <v-col md="auto">
+        <v-col cols="auto">
           <v-toolbar-title>
             <a class="navbar-title" @click="scrollToId('#home')">
               <span>&lt; {{ firstName.substring(0, 1) }}</span>
@@ -25,7 +25,11 @@
     </v-app-bar>
     <v-scroll-x-transition>
       <v-overlay :value="overlay" opacity="0.95">
-        <v-row style="height: 100vh; width: 100vw;" align="center">
+        <v-row
+          style="height: 100vh; width: 100vw;"
+          class="pa-10"
+          align="center"
+        >
           <v-container>
             <v-row>
               <v-btn icon @click="overlay = false" class="navigation-button">

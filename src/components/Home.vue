@@ -36,6 +36,7 @@ export default {
 .main-title {
   font-family: "Russo One";
   color: white;
+  font-size: 10vw;
 }
 .page {
   background-color: rgb(34, 34, 34);
