@@ -1,6 +1,6 @@
 <template>
   <v-container fluid class="main-container">
-    <v-row class="page" align="center">
+    <v-row class="page pa-10" align="center">
       <v-container>
         <v-row align="center" justify="start">
           <h1 class="subtitle">Experience</h1>
@@ -33,5 +33,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

@@ -13,10 +13,12 @@
           </v-btn>
         </v-col>
         <v-col md="auto">
-          <v-toolbar-title class="navbar-title">
-            <span>&lt; {{ firstName.substring(0, 1) }}</span>
-            <span class="highlight">{{ lastName.substring(0, 2) }}</span>
-            <span>/ &gt;</span>
+          <v-toolbar-title>
+            <a class="navbar-title" @click="scrollToId('#home')">
+              <span>&lt; {{ firstName.substring(0, 1) }}</span>
+              <span class="highlight">{{ lastName.substring(0, 2) }}</span>
+              <span>/ &gt;</span>
+            </a>
           </v-toolbar-title>
         </v-col>
       </v-row>
@@ -109,7 +111,7 @@ export default {
 }
 .navbar-title {
   font-family: "Russo One";
-  color: white;
+  color: white !important;
 }
 .navigation-button {
   color: #2ecc71 !important;

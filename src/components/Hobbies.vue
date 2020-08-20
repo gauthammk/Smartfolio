@@ -1,6 +1,6 @@
 <template>
   <v-container fluid class="main-container">
-    <v-row class="page" align="center">
+    <v-row class="page pa-10" align="center">
       <v-container>
         <v-row align="center" justify="start">
           <h1 class="subtitle">Hobbies</h1>
@@ -8,7 +8,10 @@
         <v-row id="hobbies" class="content">{{ hobbies.data }}</v-row>
         <v-row>
           <v-container id="achievements" class="content">
-            <v-row v-for="achievement in achievements" v-bind:key="achievement.id">
+            <v-row
+              v-for="achievement in achievements"
+              v-bind:key="achievement.id"
+            >
               <v-container>
                 <v-row class="highlight">{{ achievement.title }}</v-row>
                 <v-row>{{ achievement.organisation }}</v-row>
@@ -32,5 +35,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

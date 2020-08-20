@@ -1,6 +1,6 @@
 <template>
   <v-container fluid class="main-container">
-    <v-row class="page" align="center">
+    <v-row class="page pa-10" align="center">
       <v-container>
         <v-row align="center" justify="start">
           <h1 class="subtitle">Projects</h1>
@@ -12,10 +12,10 @@
                 <v-row class="highlight">{{ project.title }}</v-row>
                 <v-row>{{ project.description }}</v-row>
                 <v-row justify="start">
-                  <v-col md="auto" style="padding: 0;" v-if="project.demo">
+                  <v-col cols="auto" style="padding: 0;" v-if="project.demo">
                     <a class="navigation-link" :href="project.demo">Demo</a>|
                   </v-col>
-                  <v-col md="auto" style="padding: 0;" v-if="project.repo">
+                  <v-col cols="auto" style="padding: 0;" v-if="project.repo">
                     <a class="navigation-link" :href="project.repo">Repo</a>
                   </v-col>
                 </v-row>

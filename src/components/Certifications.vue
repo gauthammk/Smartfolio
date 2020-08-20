@@ -1,13 +1,16 @@
 <template>
   <v-container fluid class="main-container">
-    <v-row class="page" align="center">
+    <v-row class="page pa-10" align="center">
       <v-container>
         <v-row align="center" justify="start">
           <h1 class="subtitle">Certifications</h1>
         </v-row>
         <v-row>
           <v-container class="content">
-            <v-row v-for="certification in certifications" v-bind:key="certification.id">
+            <v-row
+              v-for="certification in certifications"
+              v-bind:key="certification.id"
+            >
               <v-container>
                 <v-row class="highlight">{{ certification.title }}</v-row>
                 <v-row class="italicise">{{ certification.date }}</v-row>
@@ -31,5 +34,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

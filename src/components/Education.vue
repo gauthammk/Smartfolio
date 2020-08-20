@@ -1,6 +1,6 @@
 <template>
   <v-container fluid class="main-container">
-    <v-row class="page" align="center">
+    <v-row class="page pa-10" align="center">
       <v-container>
         <v-row align="center" justify="start">
           <h1 class="subtitle">Education</h1>
@@ -11,7 +11,9 @@
               <v-container>
                 <v-row class="highlight">{{ ed.institute }}</v-row>
                 <v-row>{{ ed.degree }}</v-row>
-                <v-row class="italicise">Year of graduating: {{ ed.graduationDate }}</v-row>
+                <v-row class="italicise"
+                  >Year of graduating: {{ ed.graduationDate }}</v-row
+                >
                 <v-row>{{ ed.marks }}</v-row>
               </v-container>
             </v-row>

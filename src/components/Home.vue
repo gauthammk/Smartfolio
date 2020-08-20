@@ -1,6 +1,6 @@
 <template>
   <v-container fluid class="main-container">
-    <v-row class="page" align="center">
+    <v-row class="page pa-10" align="center">
       <v-container>
         <v-row align="center" justify="center">
           <h1 class="main-title">
@@ -34,7 +34,6 @@ export default {
   color: #2ecc71;
 }
 .main-title {
-  font-size: 7rem;
   font-family: "Russo One";
   color: white;
 }

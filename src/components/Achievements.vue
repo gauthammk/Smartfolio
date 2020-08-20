@@ -1,6 +1,6 @@
 <template>
   <v-container fluid class="main-container">
-    <v-row class="page" align="center">
+    <v-row class="page pa-10" align="center">
       <v-container>
         <v-row align="center" justify="start">
           <h1 class="subtitle">Achievements</h1>
@@ -8,7 +8,7 @@
         <v-row>
           <v-container class="content">
             <v-row>
-              <v-col>
+              <v-col cols="auto" lg="6">
                 <v-row
                   v-for="achievement in curricularAchievements"
                   v-bind:key="achievement.id"
@@ -20,7 +20,7 @@
                   </v-container>
                 </v-row>
               </v-col>
-              <v-col>
+              <v-col cols="auto" lg="6">
                 <v-row
                   v-for="achievement in coCurricularAchievements"
                   v-bind:key="achievement.id"
