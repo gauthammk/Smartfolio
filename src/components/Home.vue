@@ -48,6 +48,7 @@ export default {
   color: #2ecc71;
 }
 .main-container {
-  padding: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
 </style>

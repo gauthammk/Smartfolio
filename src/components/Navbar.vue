@@ -3,14 +3,19 @@
     <v-app-bar fixed hide-on-scroll class="navbar">
       <v-row align="center">
         <v-col>
-          <v-btn x-large icon class="navigation-button" v-on:click="overlay = !overlay">
+          <v-btn
+            x-large
+            icon
+            class="navigation-button"
+            v-on:click="overlay = !overlay"
+          >
             <v-icon>mdi-menu</v-icon>
           </v-btn>
         </v-col>
         <v-col md="auto">
-          <v-toolbar-title class="main-title">
-            <span>&lt; {{firstName.substring(0,1)}}</span>
-            <span class="highlight">{{lastName.substring(0,2)}}</span>
+          <v-toolbar-title class="navbar-title">
+            <span>&lt; {{ firstName.substring(0, 1) }}</span>
+            <span class="highlight">{{ lastName.substring(0, 2) }}</span>
             <span>/ &gt;</span>
           </v-toolbar-title>
         </v-col>
@@ -35,25 +40,39 @@
               <a class="navigation-link" @click="scrollToId('#about')">About</a>
             </v-row>
             <v-row class="content">
-              <a class="navigation-link" @click="scrollToId('#education')">Education</a>
+              <a class="navigation-link" @click="scrollToId('#education')"
+                >Education</a
+              >
             </v-row>
             <v-row class="content">
-              <a class="navigation-link" @click="scrollToId('#experience')">Experience</a>
+              <a class="navigation-link" @click="scrollToId('#experience')"
+                >Experience</a
+              >
             </v-row>
             <v-row class="content">
-              <a class="navigation-link" @click="scrollToId('#skills')">Skills</a>
+              <a class="navigation-link" @click="scrollToId('#skills')"
+                >Skills</a
+              >
             </v-row>
             <v-row class="content">
-              <a class="navigation-link" @click="scrollToId('#projects')">Projects</a>
+              <a class="navigation-link" @click="scrollToId('#projects')"
+                >Projects</a
+              >
             </v-row>
             <v-row class="content">
-              <a class="navigation-link" @click="scrollToId('#achievements')">Achivements</a>
+              <a class="navigation-link" @click="scrollToId('#achievements')"
+                >Achivements</a
+              >
             </v-row>
             <v-row class="content">
-              <a class="navigation-link" @click="scrollToId('#certifications')">Certifications</a>
+              <a class="navigation-link" @click="scrollToId('#certifications')"
+                >Certifications</a
+              >
             </v-row>
             <v-row class="content">
-              <a class="navigation-link" @click="scrollToId('#hobbies')">Hobbies</a>
+              <a class="navigation-link" @click="scrollToId('#hobbies')"
+                >Hobbies</a
+              >
             </v-row>
           </v-container>
         </v-row>
@@ -73,10 +92,10 @@ export default {
     lastName: last,
   }),
   methods: {
-    triggerMenu: function () {
+    triggerMenu: function() {
       this.$emit("menu-clicked-event");
     },
-    scrollToId: function (id) {
+    scrollToId: function(id) {
       this.$vuetify.goTo(id);
       this.overlay = false;
     },
@@ -87,6 +106,10 @@ export default {
 <style>
 .navbar {
   background-color: rgb(34, 34, 34) !important;
+}
+.navbar-title {
+  font-family: "Russo One";
+  color: white;
 }
 .navigation-button {
   color: #2ecc71 !important;
