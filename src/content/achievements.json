@@ -1,44 +1,48 @@
-[
-  {
-    "id": 1,
-    "title": "AnonCTF-2018 | 1st Place ",
-    "date": "September 2018",
-    "organisation": "BMSCE Phaseshift"
-  },
-  {
-    "id": 2,
-    "title": "Cicada CTF 2019 | 3rd Place ",
-    "date": "January 2019",
-    "organisation": "Cicada"
-  },
-  {
-    "id": 3,
-    "title": "BruteForce 1.0 | Rank 61 ",
-    "date": "June 2020",
-    "organisation": "HackerEarth"
-  },
-  {
-    "id": 4,
-    "title": "NahamCon CTF 2020 | Rank 424 ",
-    "date": "May 2020",
-    "organisation": "Nahamsec"
-  },
-  {
-    "id": 5,
-    "title": "Lensation Photography Competition | 1st Place ",
-    "date": "September 2017",
-    "organisation": "BMSCE Phaseshift"
-  },
-  {
-    "id": 6,
-    "title": "Karnataka Music Senior Grade | Vocal ",
-    "date": "May 2018",
-    "organisation": "Karnataka State Education Board"
-  },
-  {
-    "id": 7,
-    "title": "Karnataka Music Junior Grade | Violin ",
-    "date": "October 2015",
-    "organisation": "Karnataka State Education Board"
-  }
-]
+{
+  "curricularAchievements": [
+    {
+      "id": 1,
+      "title": "AnonCTF-2018 | 1st Place ",
+      "date": "September 2018",
+      "organisation": "BMSCE Phaseshift"
+    },
+    {
+      "id": 2,
+      "title": "Cicada CTF 2019 | 3rd Place ",
+      "date": "January 2019",
+      "organisation": "Cicada"
+    },
+    {
+      "id": 3,
+      "title": "BruteForce 1.0 | Rank 61 ",
+      "date": "June 2020",
+      "organisation": "HackerEarth"
+    },
+    {
+      "id": 4,
+      "title": "NahamCon CTF 2020 | Rank 424 ",
+      "date": "May 2020",
+      "organisation": "Nahamsec"
+    }
+  ],
+  "coCurricularAchievements": [
+    {
+      "id": 5,
+      "title": "Lensation Photography Competition | 1st Place ",
+      "date": "September 2017",
+      "organisation": "BMSCE Phaseshift"
+    },
+    {
+      "id": 6,
+      "title": "Karnataka Music Senior Grade | Vocal ",
+      "date": "May 2018",
+      "organisation": "Karnataka State Education Board"
+    },
+    {
+      "id": 7,
+      "title": "Karnataka Music Junior Grade | Violin ",
+      "date": "October 2015",
+      "organisation": "Karnataka State Education Board"
+    }
+  ]
+}
