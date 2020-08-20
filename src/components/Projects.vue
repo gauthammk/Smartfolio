@@ -13,10 +13,10 @@
                 <v-row>{{ project.description }}</v-row>
                 <v-row justify="start">
                   <v-col md="auto" style="padding: 0;" v-if="project.demo">
-                    <a class="navigation-link" href="project.demo">Demo</a>|
+                    <a class="navigation-link" :href="project.demo">Demo</a>|
                   </v-col>
                   <v-col md="auto" style="padding: 0;" v-if="project.repo">
-                    <a class="navigation-link" href="project.repo">Repo</a>
+                    <a class="navigation-link" :href="project.repo">Repo</a>
                   </v-col>
                 </v-row>
               </v-container>
@@ -39,5 +39,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

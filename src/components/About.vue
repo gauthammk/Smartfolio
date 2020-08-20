@@ -23,7 +23,9 @@
         <v-row>
           <v-container id="socialHandles" class="content">
             <v-row v-for="handle in socialHandles" v-bind:key="handle.id">
-              <a class="navigation-link" href="handle.link">{{ handle.title }}</a>
+              <a class="navigation-link" :href="handle.link">{{
+                handle.title
+              }}</a>
             </v-row>
           </v-container>
         </v-row>
