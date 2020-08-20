@@ -2,7 +2,7 @@
   <v-container fluid class="main-container">
     <v-row class="main-title" align="center">
       <v-container>
-        <v-row align="center" justify="left">
+        <v-row align="center" justify="start">
           <h1 class="subtitle">Projects</h1>
         </v-row>
         <v-row>
@@ -13,10 +13,10 @@
                 <v-row>{{ project.description }}</v-row>
                 <v-row justify="start">
                   <v-col md="auto" style="padding: 0;" v-if="project.demo">
-                    <a class="hyperlink" href="project.demo">Demo</a>|
+                    <a class="navigation-link" href="project.demo">Demo</a>|
                   </v-col>
                   <v-col md="auto" style="padding: 0;" v-if="project.github">
-                    <a class="hyperlink" href="project.github">GitHub</a>
+                    <a class="navigation-link" href="project.github">GitHub</a>
                   </v-col>
                 </v-row>
               </v-container>
@@ -87,7 +87,4 @@ export default {
 </script>
 
 <style>
-.hyperlink {
-  color: #2ecc71 !important;
-}
 </style>

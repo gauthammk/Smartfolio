@@ -1,28 +1,28 @@
 <template>
   <v-app>
     <v-main>
-      <Navbar />
+      <Navbar @menu-clicked-event="handleMenuClick" />
       <v-divider class="divider"></v-divider>
-      <Title />
+      <Home id="home" />
       <v-divider class="divider"></v-divider>
       <About id="about" />
       <v-divider class="divider"></v-divider>
-      <Education />
+      <Education id="education" />
       <v-divider class="divider"></v-divider>
-      <Experience />
+      <Experience id="experience" />
       <v-divider class="divider"></v-divider>
-      <Skills />
+      <Skills id="skills" />
       <v-divider class="divider"></v-divider>
-      <Projects />
+      <Projects id="projects" />
       <v-divider class="divider"></v-divider>
-      <Hobbies />
+      <Hobbies id="hobbies" />
       <v-divider class="divider"></v-divider>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import Title from "./components/Title";
+import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Education from "./components/Education";
@@ -35,7 +35,7 @@ export default {
   name: "App",
 
   components: {
-    Title,
+    Home,
     Navbar,
     About,
     Education,
@@ -46,8 +46,16 @@ export default {
   },
 
   data: () => ({
-    //
+    isMenuClicked: false,
+    overlay: false,
+    absolute: true,
   }),
+  methods: {
+    handleMenuClick: function () {
+      console.log("Menu clicked.");
+      this.isMenuClicked = !this.isMenuClicked;
+    },
+  },
 };
 </script>
 <style>

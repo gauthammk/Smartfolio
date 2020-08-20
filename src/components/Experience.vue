@@ -2,7 +2,7 @@
   <v-container fluid class="main-container">
     <v-row class="main-title" align="center">
       <v-container>
-        <v-row align="center" justify="left">
+        <v-row align="center" justify="start">
           <h1 class="subtitle">Experience</h1>
         </v-row>
         <v-row>

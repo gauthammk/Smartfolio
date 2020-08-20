@@ -2,7 +2,7 @@
   <v-container fluid class="main-container">
     <v-row class="main-title" align="center">
       <v-container>
-        <v-row align="center" justify="left">
+        <v-row align="center" justify="start">
           <h1 class="subtitle">About</h1>
         </v-row>
         <v-row>
@@ -19,7 +19,9 @@
         </v-row>
         <v-row>
           <v-container id="socialHandles" class="content">
-            <v-row v-for="handle in socialHandles" v-bind:key="handle">{{ handle }}</v-row>
+            <v-row v-for="handle in socialHandles" v-bind:key="handle">
+              <a class="navigation-link" href="handle.link">{{ handle.title }}</a>
+            </v-row>
           </v-container>
         </v-row>
       </v-container>
@@ -36,11 +38,20 @@ export default {
     phoneNumber: "911-308-1397",
     aboutMeBody:
       "A passionate engineer and a quick learner with a strong understanding of the latest web technologies and application security, equipped with the right technical and soft skills required to propel your organisation in achieving its goals and objectives.",
-    socialHandles: {
-      github: "https://github.com/gauthammk",
-      linkedIn: "https://www.linkedin.com/in/gauthammk/",
-      twitter: "https://twitter.com/i_amgmk",
-    },
+    socialHandles: [
+      {
+        title: "GitHub",
+        link: "https://github.com/gauthammk",
+      },
+      {
+        title: "LinkedIn",
+        link: "https://www.linkedin.com/in/gauthammk/",
+      },
+      {
+        title: "Twitter",
+        link: "https://twitter.com/i_amgmk",
+      },
+    ],
   }),
 };
 </script>
